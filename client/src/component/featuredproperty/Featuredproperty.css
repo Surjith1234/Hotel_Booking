@@ -1,0 +1,52 @@
+.featuredproperty{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+*{
+    margin:0;
+}
+.featuredpropertyitems
+{
+    border-radius: 10px;
+    cursor: pointer;
+    overflow:hidden;
+    flex: 1;
+    
+}
+
+.fpimages{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.featuredpropertytitle
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fprating{
+    display: flex;
+    gap: 10px;
+}
+.fpname{
+    font-weight: bold;
+}
+.fpcity
+{
+    font-weight: 300;
+}
+.fpprice{
+    font-weight: 500;
+}
+.fprating button{
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
+.fprating span{
+    font-size: 14px;
+}

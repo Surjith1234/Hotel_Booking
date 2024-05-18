@@ -1,0 +1,78 @@
+.register{
+    height: 100vh;
+    background:linear-gradient(rgb(29, 29, 133),rgb(126, 60, 60));
+    overflow: hidden;
+}
+.registercontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+}
+.registercontainer h1{
+    text-align: center;
+    padding:10px 0 20px 0;
+    border-bottom: 2px solid silver;
+}
+.registercontainer form{
+    padding: 40px;
+    
+}
+.registercontainer form .reg_inp{
+    position: relative;
+    border-bottom: 2px solid  rgb(90, 64, 195);
+    margin: 30px 0;
+}
+
+.registercontainer input{
+    
+   width: 100%;
+   padding: 0 0 5px;
+   font-size: 13px;
+   border: none;
+   outline: none;
+}
+.reg_inp label{
+   
+    position: absolute;
+      top: -10px;
+      left: 5px;
+      color:  rgb(90, 64, 195);
+      transform: translateY(-50%);
+      font-size: 16px;
+      font-weight:500;
+      pointer-events: none;
+}
+/* .reg_inp span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #2691d9;
+  } 
+  .reg_inp input:focus~label,
+  .reg_inp input:valid~label{
+    top: 2px;
+    color: #2691d9;
+}  */
+ /* input[type='submit']
+{
+    height: 40px;
+    border-radius: 25px;
+    
+    font-size: 16px;
+    background:linear-gradient(rgb(29, 29, 133),rgb(126, 60, 60));
+} */
+.registercontainer .reg_btn{
+    background-color: rgb(90, 64, 195);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.signup{
+    margin-top: 10px;
+}

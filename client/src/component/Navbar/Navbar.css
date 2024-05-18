@@ -1,0 +1,30 @@
+.navbar{
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+.navcontainer
+{
+    max-width: 1024px;
+    width: 95%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbutton
+{
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    color: blue;
+    cursor: pointer;
+}
+.navcontainer .reg{
+    text-decoration: none;
+}
+.navcontainer .log{
+    text-decoration: none;
+}

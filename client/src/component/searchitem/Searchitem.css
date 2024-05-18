@@ -1,0 +1,115 @@
+.searchitem{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    
+}
+.siimg{
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.sidesc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sititle{
+    font-size: 20px;
+    color: blue;
+}
+.sidistance{
+    font-size: 12px;
+}
+.sitaxi{
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    width: max-content;
+    padding: 5px;
+}
+.sisubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.sifeature{
+    font-size: 12px;
+}
+.sicancel{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+}
+.sicancelsubtitle{
+    font-size: 12px;
+    color: #008009;
+    font-weight: bold;
+}
+.sidetail{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sirating{
+    display: flex;
+    justify-content: space-between;
+}
+.sirating span{
+    font-weight: 500;
+}
+.sirating button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+.sidetailtext{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.siprice{
+    font-size: 24px;
+}
+.sitaxiop{
+    font-size: 12px;
+    color: grey;
+}
+.sibutton
+{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+}
+.sidetailtext  button .hotel{
+ text-decoration: none;
+ color: white;
+}
+.sidetailtext  button{
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+    height: 30px;
+    
+}
+.searchitem .search_image{
+     width: 300px;
+     height: 200px;
+     border-radius: 10px;
+}

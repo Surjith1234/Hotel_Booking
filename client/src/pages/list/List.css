@@ -1,0 +1,61 @@
+.listcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.listwrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+}
+.listsearch{
+    flex: 1;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 10px;
+    position: sticky;
+   height: max-content;
+}
+.listresult{
+    flex: 3;
+    color: #555;
+    margin-bottom: 10px;
+}
+.listsearchitem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.listsearchitem>input{
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+.listsearchitem>span{
+     height: 30px;
+     padding: 5px;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+.listoptionitem{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color:#555;
+    font-size: 12px;
+}
+.listoptioninput
+{
+    width: 50px;
+    height: 20px;
+}
+.listoptiontext{
+    font-size: larger;
+    font-weight: 500;
+}

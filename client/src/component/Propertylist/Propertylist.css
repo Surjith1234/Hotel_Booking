@@ -1,0 +1,32 @@
+h1{
+    top: 0;
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+.propertylist
+{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.propertylistitem
+{
+    border-radius: 10px;
+    cursor: pointer;
+    overflow:hidden;
+}
+.propertyimages{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.propertytitle>h1{
+    font-size: 18px;
+}
+.propertytitle>h2{
+    font-size: 14px;
+}

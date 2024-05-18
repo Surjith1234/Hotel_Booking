@@ -1,0 +1,104 @@
+.hotelcontainer{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    margin-top: 20px;
+}
+.hotelwrapper{
+    max-width: 1025px;
+    width: 95%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 20px;
+   position: relative;
+}
+.imgwrapper{
+    width: 33%;
+}
+.hotelimg{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.hoteltitle{
+    font-size: 24px;
+}
+.hoteladdress{
+    font-size: 12px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hoteldistance{
+    color: blue;
+    font-weight: 500;
+}
+.hotelpricehighlight{
+    color: green;
+    font-weight: 500;
+    
+}
+.hotelimages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booknow{
+    position: absolute;
+    right: 2px;
+    top: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.hoteldetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+.hoteldetailtext{
+    flex: 3;
+}
+.hoteldetailprice{
+    flex: 1;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+}
+.hoteldesc{
+    font-size: 14px;
+}
+.hoteldetailprice button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.hoteldetailprice h1{
+    font-size: 10px;
+    color: grey;
+}
+.hoteldetailprice span{
+    font-size: 14px;
+}
+.hoteldetailprice h2{
+    font-weight: 500;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+}
+.hotelcontainer .book{
+    text-decoration: none;
+    color: white;
+}

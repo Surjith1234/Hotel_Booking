@@ -1,0 +1,139 @@
+.header
+{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headercontainer
+{
+    max-width: 1024px;
+    width: 95%;
+    margin: 10px 0px 100px 0px;
+}
+.headercontainerlist
+{
+    width: 100%;
+    max-width: 1024px;
+}
+.headerlist
+{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.headerlistitem
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.headerlistitem.active{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerdec
+{
+    margin: 20px 0px;
+}
+.headerbutton
+{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    color: blue;
+}
+.headersearch
+{
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 3px solid yellow;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-around;
+   border-radius: 5px;
+   position: absolute;
+   bottom: -25px;
+   width: 100%;
+   max-width: 1024px;
+}
+.headersearchitem
+{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+.headersearchicon{
+    color: lightgray;
+}
+.headersearchbutton{
+    border: none;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+.headersearchinput
+{
+    border: none;
+    outline:none;
+}
+.headersearchtext
+{
+    color: lightgrey;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 47px;
+    z-index: 2;
+}
+.option{
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: black;
+    -webkit-box-shadow: -5px 24px 119px -25px rgba(168,155,168,0.57);
+    -moz-box-shadow: -5px 24px 119px -25px rgba(168,155,168,0.57);
+    box-shadow: -5px 24px 119px -25px rgba(168,155,168,0.57);
+    z-index: 2;
+}
+.optionitem
+{
+   width: 200px;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.optionitemalign
+{
+    display: flex;
+    gap: 10px;
+}
+.optionitembutton{
+    border: none;
+    outline: none;
+   background-color: blue;
+   color: white;
+}
+.optionitembutton:disabled{
+    cursor: not-allowed;
+}
+.header .hote{
+    text-decoration: none;
+    color: white;
+   
+
+}
+.header .raghul{
+    background-color: blue;
+    border: none;
+}

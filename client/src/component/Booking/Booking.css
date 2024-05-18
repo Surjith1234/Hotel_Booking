@@ -1,0 +1,79 @@
+.booking{
+    height: 100vh;
+   background-color: blue;
+    overflow: hidden;
+}
+.book_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid violet;
+    width: 420px;
+    
+}
+.book_container form{
+    padding: 50px;
+}
+.booking form{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.book_inp_fields{
+    display: flex;
+    flex-direction: column;
+}
+.book_inp_fields label
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.book_inp_fields input{
+    background-color: rgb(196, 199, 200);
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 100%;
+}
+.book_inp_fields select{
+    background-color: rgb(196, 199, 200);
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 100%;
+}
+.book_inp_fields textarea{
+    background-color: rgb(196, 199, 200);
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 100%;
+}
+ /* input[type="button"]{
+    background-color: blue;
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+} */
+.booking_btn{
+    background-color: blue;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.surjith{
+    color: white;
+    text-decoration: none;
+}
