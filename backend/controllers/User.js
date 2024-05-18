@@ -17,6 +17,7 @@ const createUser=async(req,res)=>{
 const login=async(req,res)=>{
     const {name,password}=req.body
     const findLogin=await user.findOne({name,password})
+    console.log(name);
     if(findLogin)
     {
         res.json({success:true,message:"Login successfully"})
